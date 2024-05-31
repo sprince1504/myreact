@@ -5,6 +5,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    height: auto;
 }
 
 .logo a {
@@ -33,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #846307;
+    background-color: #2B7A78;
     border-radius: 4px;
 }
 

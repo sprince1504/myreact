@@ -7,7 +7,7 @@
 html {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
-
+  height: auto;
   color: #ebe7ef;
   background: radial-gradient(#fdfdfd, #ffffff);
 
@@ -22,14 +22,18 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: auto;
 }
 
 header {
-  background-color: #5c5103;
+  background-color: #3AAFA9;
   color: #fff;
   padding: 10px 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+section.home {
+  color: black;
 }

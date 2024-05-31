@@ -1,5 +1,6 @@
 import Header from "./components/global/header/Header.jsx";
 import Footer from "./components/global/footer/Footer.jsx";
+import PageContent from "./components/global/pageContent/PageContent.jsx";
 
 
 
@@ -8,7 +9,7 @@ function App() {
     <>
     <header>
       <div className="container">
-      <div class="logo">
+      <div className="logo">
                 <a href="#">MyWebsite</a>
             </div>
       <nav>
@@ -21,7 +22,11 @@ function App() {
       </nav>
       </div>
     </header>
-
+    <main>
+    <section className="home">
+      <PageContent />
+      </section>
+    </main>
     <footer>
       <Footer />
     </footer>
